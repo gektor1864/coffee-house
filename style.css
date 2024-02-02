@@ -1,0 +1,115 @@
+
+body {
+	position: relative;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	background: rgba(225, 212, 201, 1);
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.navbar {
+width: 100%;
+height: 70px;
+color:black;
+}
+
+.navbar-brand img {
+    padding-top: 20px;
+    margin-left: 55px;
+    
+}
+
+.navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	color: black;
+	margin-right: 20vh;
+
+
+}
+
+.navbar-menu li {
+	display:inline-block;
+	text-decoration: none;
+	color:black;
+	padding: 20px;
+	font-size: 15px;
+	font-weight: 800;
+    transition: all .07s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+	opacity: 1;
+    color: #403F3D;
+
+}
+
+.navbar-menu li a {
+	display:inline-block;
+	text-decoration: none;
+	color:black;
+    opacity: 0.6;
+	padding: 10px;
+	margin-right: 10vh;
+	font-size: 15px;
+	font-weight: 800;
+
+}
+
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.menu {
+	display:inline-block;
+	text-decoration: none;
+	color: grey;
+	padding: 20px;
+	font-size: 15px;
+	font-weight: 800;
+	transition: all .07s ease-in-out;
+}
+
+.menu:hover {
+	opacity: 0.5;
+	color:black;
+}
+
+.menu svg {
+    padding-top: 5px;
+}
+
+.intro {
+    width: 95%;
+    height: 90vh;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("img-hero.svg") center 
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.back-intro  {
+    writing-mode: horizontal-tb;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 500;
+    color: #E1D4C9;
+}
